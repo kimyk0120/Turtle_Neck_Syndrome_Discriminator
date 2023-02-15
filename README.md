@@ -1,19 +1,18 @@
 # Turtle_Neck_Syndrome_Discriminator
 
 
-
-
-This application uses the following tools:
-
-> Python 3.11  
-> OpenCV 4.7.0
-
 ---
 
 ### INTRODUCTION
 
 * 이미지 또는 영상 기반의 데이터를 통해 AI 모델 기반의 거북목 판별 알고리즘을 적용하여 거북목 여부를 판별하여 검출한다.  
 Image or video based data is applied to AI model based turtle neck syndrome discriminator algorithm to detect whether it is a turtle neck or not.
+
+
+This application uses the following tools:
+
+> Python 3.11.2  
+> OpenCV 4.7.0
 
 
 
