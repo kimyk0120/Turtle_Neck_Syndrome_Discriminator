@@ -1,6 +1,12 @@
 # Turtle_Neck_Syndrome_Discriminator
 
 
+
+
+This application uses the following tools:
+
+> Python 3.11
+
 ---
 
 ### Intro
