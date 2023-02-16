@@ -24,6 +24,10 @@ This application uses the following tools:
   - 그러나 일상 에서 CV 각도를 정확하게 측정하는 것이 어려우므로, 좀 더 단순화된 방법으로
 귀구슬로부터 견봉점까 지의 수평거리(Acromion distance)를 거북목 자세 판별 기준으로 사용할 수 있다.
 이 점들 간의 거리가 2.5cm 이하이면 정상, 2.5cm 이상 나오면 거 북목이 진행되고 있는 상태이며, 5cm 이상 나왔을 때는 심각한 거북목 상태로 판별 (from Responsive Healthcare System for Posture Correction Using WebcamBased Turtle Neck Syndrome Discrimination Algorithm)
+  - 얼굴의 턱 선과 어깨 선 간의 거리 변화가 나타나는 것을 확인하였다(Fig. 2(a)). 그러나 거리값 자체를 기준으로
+삼을 경우 노트북과 사용자 거리에 따라 값이 달라질
+수 있음을 고려하여 턱 선과 어깨 선 간의 거리를
+얼굴 광대 길이로 나눈 값을 모델 학습에 사용 (from Responsive Healthcare System for Posture Correction Using WebcamBased Turtle Neck Syndrome Discrimination Algorithm)
 
 
 
