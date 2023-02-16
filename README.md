@@ -34,6 +34,9 @@ This application uses the following tools:
 
 
 * 거북목 진단 기준에 따른 판별 알고리즘 개발
+  - 정면일 때
+    +  
+  - 측면일 때
 * 활용 모델 검토
 
 
