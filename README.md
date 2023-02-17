@@ -35,11 +35,14 @@ This application uses the following tools:
 
 ---
 
+* dlib 설치가 안됨... venv를 다시 만들어야 할 듯
 
 * 학습 데이터셋 수집
   * 조인트와 판별(FHP)여부 라벨링 수집 
   * 2분씩 15프레임 기준으로 
-  
+  * 양쪽 귀, 양 어깨, 턱, 거북목 여부
+  * 얼굴 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=zzing0907&logNo=221612308385
+  * 몸 : mediapipe
   
 
 
