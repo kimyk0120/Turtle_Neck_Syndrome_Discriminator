@@ -7,3 +7,5 @@ print("Version info.")
 print(sys.version_info)
 print("OpenCV version")
 print(cv2.__version__)
+
+
