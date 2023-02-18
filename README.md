@@ -27,15 +27,13 @@ This application uses the following tools:
 삼을 경우 노트북과 사용자 거리에 따라 값이 달라질
 수 있음을 고려하여 턱 선과 어깨 선 간의 거리를
 얼굴 광대 길이로 나눈 값을 모델 학습에 사용 (from Responsive Healthcare System for Posture Correction Using WebcamBased Turtle Neck Syndrome Discrimination Algorithm)
-
+* Facial Landmark Detection : dlib
+* Pose Landmark Detection : mediapipe
 
 
 ### TODO <a name="todo"></a>
 
 ---
-
-* Facial Landmark Detection : dlib
-* Pose Landmark Detection : mediapipe
 
 
 * 학습 데이터셋 수집
