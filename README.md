@@ -11,9 +11,8 @@ Image or video based data is applied to AI model based turtle neck syndrome disc
 
 This application uses the following tools:
 
-> Python 3.11.2  
+> Python 3.7.2  
 > OpenCV 4.7.0
-
 
 ### DONE <a name="done"></a>
 
@@ -35,17 +34,28 @@ This application uses the following tools:
 
 ---
 
-* dlib 설치가 안됨... venv를 다시 만들어야 할 듯
+* Facial Landmark Detection : dlib
+* Pose Landmark Detection : mediapipe
+
 
 * 학습 데이터셋 수집
   * 조인트와 판별(FHP)여부 라벨링 수집 
   * 2분씩 15프레임 기준으로 
   * 양쪽 귀, 양 어깨, 턱, 거북목 여부
-  * 얼굴 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=zzing0907&logNo=221612308385
+  * 얼굴 : dlib; https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=zzing0907&logNo=221612308385
   * 몸 : mediapipe
+  
+* 데이터 수집 스크립트 작성
+  *  
   
 
 
+
+### TROUBLESHOOTING <a name="troubleshooting"></a>
+
+---
+
+* dlib 설치시 오류 : cmake 빌드 오류로 python3.11 버전에서 3.7로 다운그레이드 후 해결 
 
 
 
