@@ -1,7 +1,25 @@
 import dlib
 import mediapipe
+import cv2
 
-print("dlib version: {}".format(dlib.__version__))
-print("mediapipe version: {}".format(mediapipe.__version__))
+webcam = cv2.VideoCapture(0)
 
+if not webcam.isOpened():
+    print("Could not open webcam")
+    exit()
+
+
+while webcam.isOpened():
+    status, frame = webcam.read()
+
+    if status:
+        # cv2.imshow("test", frame)
+        pass
+
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+webcam.release()
+cv2.destroyAllWindows()
 
