@@ -1,40 +1,39 @@
 import dlib
-import mediapipe
+import mediapipe as mp
 import cv2
 import numpy as np
 import time
+import utils.fps_util as fps_util
 
-detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("./dat/shape_predictor_68_face_landmarks.dat")
+fps_util = fps_util.fps_util()
 
+# dlib
+dlib_detector = dlib.get_frontal_face_detector()
+dlib_predictor = dlib.shape_predictor("./dat/shape_predictor_68_face_landmarks.dat")
 
+# mediapipe
+mp_pose = mp.solutions.pose
+
+# webcam
 webcam = cv2.VideoCapture(0)
 
 if not webcam.isOpened():
     print("Could not open webcam")
     exit()
 
-prevTime = 0
+
 while webcam.isOpened():
     status, frame = webcam.read()
 
-    curTime = time.time()
-    sec = curTime - prevTime
-    prevTime = curTime
-
-    fps = 1 / (sec)
-    print("FPS: %0.1f" % fps)
+    fps_util.print_fps()
 
     if status:
-
         # cv2.imshow("test", frame)
 
         pass
-
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 webcam.release()
 cv2.destroyAllWindows()
-
