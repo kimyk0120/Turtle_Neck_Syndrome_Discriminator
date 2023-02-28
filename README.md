@@ -36,7 +36,7 @@ This application uses the following tools:
 ---
 
 
-* 학습 데이터셋 수집
+* 학습 데이터셋 수집 
   * 조인트와 판별(FHP)여부 라벨링 수집 
   * 2분씩 15프레임 기준으로 
   * 양쪽 귀, 양 어깨, 턱, 거북목 여부
@@ -44,7 +44,7 @@ This application uses the following tools:
   * 몸 : mediapipe
   
 * 데이터 수집 스크립트 작성
-  *  
+  * 웹캠을 통해 얼굴과 몸의 랜드마크를 추출하여 저장  
   
 
 

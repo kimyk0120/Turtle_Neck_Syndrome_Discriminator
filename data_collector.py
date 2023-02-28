@@ -27,10 +27,10 @@ while webcam.isOpened():
 
     fps_util.print_fps()
 
-    if status:
-        # cv2.imshow("test", frame)
+    # face detection using dlib and draw rectangle
 
-        pass
+
+
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
