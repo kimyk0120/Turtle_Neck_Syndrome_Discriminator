@@ -21,18 +21,17 @@ if not webcam.isOpened():
     print("Could not open webcam")
     exit()
 
-
 while webcam.isOpened():
     status, frame = webcam.read()
 
     fps_util.print_fps()
 
     # face detection using dlib and draw rectangle
+    
 
 
 
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) == ord('q'):
         break
 
 webcam.release()
